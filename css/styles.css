@@ -1,0 +1,672 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+/* *********************************** */
+/* BAGIAN HEADER */
+/* *********************************** */
+.header-home {
+  padding: 35px 138px;
+  position: absolute;
+  width: 100%;
+  height: 145px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: transparent;
+}
+
+.header-home ul {
+  display: flex;
+  column-gap: 65px;
+  list-style: none;
+}
+
+.header-home li {
+  margin-bottom: 0;
+}
+
+.header-home a {
+  font-size: 30px;
+  color: #f9fbfe;
+  text-decoration: none;
+}
+
+.logo {
+  display: block;
+  width: 335px;
+}
+
+/* *********************************** */
+/* BAGIAN HERO */
+/* *********************************** */
+.section-hero {
+  background-image: url("/img/Coffe Header.png");
+  background-color: rgba(20, 54, 66, 0.7);
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 700px;
+  width: 100%;
+  /* border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px; */
+  padding: 245px 0;
+}
+
+.hero {
+  text-align: center;
+  padding: 0 12px;
+}
+
+.hero h1 {
+  font-size: 70px;
+  font-weight: 900;
+  line-height: 84px;
+  color: #f9fbfe;
+}
+
+.hero p {
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 43.2px;
+  color: #f9fbfe;
+}
+
+/* *********************************** */
+/* BAGIAN ABOUT */
+/* *********************************** */
+.section-about {
+  padding: 120px 0;
+}
+
+.about {
+  max-width: 950px;
+  display: flex;
+  column-gap: 130px;
+  margin: 0 auto;
+}
+
+.about-img {
+  width: 335px;
+  height: 460px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.about-text h2 {
+  display: inline-block;
+  font-size: 48px;
+  font-weight: 900;
+  color: #0f8b8d;
+  padding-bottom: 14px;
+  border-bottom: 4px solid #ec9a29;
+  margin-bottom: 20px;
+}
+
+.about-text p {
+  width: 452px;
+  height: 116px;
+  font-size: 24px;
+  line-height: 28.8px;
+  color: #143642;
+}
+
+/* *********************************** */
+/* BAGIAN MENU */
+/* *********************************** */
+.section-menu {
+  padding: 0 0 120px 0;
+}
+
+.menu {
+  max-width: 950px;
+  display: flex;
+  column-gap: 130px;
+  margin: 0 auto;
+}
+
+.menu-text h2 {
+  display: inline-block;
+  font-size: 48px;
+  font-weight: 900;
+  color: #0f8b8d;
+  padding-bottom: 14px;
+  border-bottom: 4px solid #ec9a29;
+  margin-bottom: 20px;
+}
+
+.menu-text p {
+  width: 425px;
+  height: 58px;
+  font-size: 24px;
+  line-height: 28.8px;
+  color: #143642;
+}
+
+.menu-text a {
+  display: inline-block;
+  width: 335px;
+  font-size: 24px;
+  text-align: center;
+  text-decoration: none;
+  color: #f9fbfe;
+  background-color: #a8201a;
+  padding: 18px 50px;
+  border-radius: 150px;
+  margin-top: 50px;
+}
+
+.menu-img {
+  width: 335px;
+  height: 335px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+/* *********************************** */
+/* BAGIAN STORE */
+/* *********************************** */
+.section-store {
+  padding: 0 0 120px 0;
+}
+
+.store {
+  max-width: 950px;
+  display: flex;
+  column-gap: 130px;
+  margin: 0 auto;
+}
+
+.store-img {
+  width: 435px;
+  height: 435px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.store-text h2 {
+  display: inline-block;
+  font-size: 48px;
+  font-weight: 900;
+  color: #0f8b8d;
+  padding-bottom: 14px;
+  border-bottom: 4px solid #ec9a29;
+  margin-bottom: 20px;
+}
+
+.store-text p {
+  width: 398px;
+  height: 87px;
+  font-size: 24px;
+  line-height: 28.8px;
+  color: #143642;
+}
+
+.store-text a {
+  display: inline-block;
+  width: 335px;
+  font-size: 24px;
+  text-align: center;
+  text-decoration: none;
+  color: #f9fbfe;
+  background-color: #a8201a;
+  padding: 18px 50px;
+  border-radius: 150px;
+  margin-top: 50px;
+}
+
+/* *********************************** */
+/* BAGIAN FIND US */
+/* *********************************** */
+.section-feed {
+  padding: 0 0 120px 0;
+}
+
+.feed {
+  max-width: 950px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.feed h2 {
+  display: inline-block;
+  font-size: 48px;
+  font-weight: 900;
+  color: #0f8b8d;
+  margin-bottom: 50px;
+}
+
+.social-id {
+  color: #ec9a29;
+  border-bottom: 3px solid #ec9a29;
+}
+
+.feed-img {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 110px;
+  row-gap: 50px;
+  flex-wrap: wrap;
+}
+
+.feed-img img {
+  width: 237px;
+  height: 237px;
+}
+
+/* *********************************** */
+/* BAGIAN CONTACT */
+/* *********************************** */
+.section-contact {
+  padding: 0 0 120px 0;
+}
+
+.contact {
+  max-width: 950px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact h2 {
+  display: inline-block;
+  font-size: 48px;
+  font-weight: 900;
+  color: #0f8b8d;
+  margin-bottom: 20px;
+}
+
+.contact p {
+  font-size: 24px;
+  line-height: 28.8px;
+  color: #143642;
+  margin-bottom: 20px;
+}
+
+.contact a {
+  display: inline-block;
+  width: 335px;
+  font-size: 24px;
+  text-align: center;
+  text-decoration: none;
+  color: #f9fbfe;
+  background-color: #a8201a;
+  padding: 18px 50px;
+  border-radius: 150px;
+}
+
+/* *********************************** */
+/* BAGIAN FOOTER */
+/* *********************************** */
+footer {
+  width: 100%;
+  height: 460px;
+  background-color: #143642;
+  /* border-top-left-radius: 30px;
+  border-top-right-radius: 30px; */
+}
+
+.footer-nav {
+  display: flex;
+  column-gap: 180px;
+  padding: 80px 138px;
+}
+
+.logo-footer {
+  margin-bottom: 25px;
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+.side-right {
+  display: flex;
+  column-gap: 100px;
+}
+
+.side-right h3 {
+  color: #ec9a29;
+  font-weight: 700;
+}
+
+.side-right h3,
+li {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.side-right ul,
+li {
+  list-style: none;
+  padding: 0;
+  color: #f9fbfe;
+  font-weight: 400;
+}
+
+/* *********************************** */
+/* HEADER UNTUK MENU-DETAIL-FIND US-HELP PAGE */
+/* *********************************** */
+.header-multipage {
+  padding: 35px 138px;
+  width: 100%;
+  height: 145px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #0f8b8d;
+}
+
+.header-multipage ul {
+  display: flex;
+  column-gap: 65px;
+  list-style: none;
+}
+
+.header-multipage li {
+  margin-bottom: 0;
+}
+
+.header-multipage a {
+  font-size: 30px;
+  color: #f9fbfe;
+  text-decoration: none;
+}
+
+/* *********************************** */
+/* BAGIAN MENU PAGE */
+/* *********************************** */
+.section-menu-page {
+  padding: 120px 0;
+}
+
+.section-menu-page h2 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #0f8b8d;
+  margin-bottom: 40px;
+}
+
+.section-menu-page p {
+  font-size: 24px;
+  color: #143642;
+  margin-bottom: 40px;
+}
+
+.menu-page {
+  max-width: 950px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.menus {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 110px;
+  row-gap: 50px;
+  flex-wrap: wrap;
+}
+
+.menu-box {
+  width: 237px;
+  height: 237px;
+  background-image: url("/img/Coffee background.png");
+  background-size: cover;
+  border-radius: 20px;
+  padding: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  transition: 1s all;
+}
+
+.menu-box:hover {
+  flex-direction: column-reverse;
+  transform: scale(1.1);
+}
+
+.menus h4 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #f9fbfe;
+  margin-bottom: 10px;
+}
+
+.menus p {
+  font-size: 18px;
+  color: #f9fbfe;
+  margin: 0;
+}
+
+.menus img {
+  width: 186px;
+  height: 140px;
+  transition: 1s all;
+}
+
+.menus img:hover {
+  transform: scale(1.2);
+}
+
+/* *********************************** */
+/* BAGIAN DETAIL PAGE */
+/* *********************************** */
+.section-detail-page {
+  padding: 60px 0 120px 0;
+}
+
+.detail-page {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.detail-first {
+  display: flex;
+}
+
+.detail-first h2 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #0f8b8d;
+  padding-top: 100px;
+  margin-bottom: 30px;
+}
+
+.detail-desc {
+  font-size: 24px;
+  color: #143642;
+  margin-bottom: 60px;
+}
+
+.detail-first-text {
+  width: 50%;
+}
+
+.detail-price {
+  font-size: 60px;
+  font-weight: 900;
+  color: #0f8b8d;
+}
+
+.detail-second {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.detail-second h2 {
+  width: 381px;
+  font-size: 48px;
+  color: #0f8b8d;
+  padding-bottom: 20px;
+  border-bottom: 4px solid #ec9a29;
+  margin-top: 43.65px;
+  margin-bottom: 20px;
+}
+
+.detail-second-text p {
+  width: 920px;
+  font-size: 24px;
+  line-height: 28.8px;
+  color: #143642;
+}
+
+.detail-btn {
+  display: flex;
+  align-items: center;
+  width: 335px;
+  background-color: #a8201a;
+  padding: 18px 41px;
+  border-radius: 150px;
+  margin-top: 45px;
+}
+
+.arrow-back {
+  transform: scaleX(-1);
+  width: 40px;
+  height: 30px;
+}
+
+.detail-btn a {
+  display: inline-block;
+  text-decoration: none;
+  color: #f9fbfe;
+  font-size: 22px;
+}
+
+/* *********************************** */
+/* BAGIAN FIND US PAGE */
+/* *********************************** */
+.section-findus-page {
+  padding: 120px 0;
+}
+
+.findus {
+  max-width: 1250px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.findus-address {
+  width: 50%;
+}
+
+.findus-address h2 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #0f8b8d;
+  margin-bottom: 20px;
+}
+
+.findus-desc {
+  font-size: 24px;
+  color: #143642;
+  margin-bottom: 20px;
+}
+
+.address {
+  width: 474px;
+  padding: 20px 40px 40px;
+  margin-bottom: 20px;
+  border: 2px solid #d2d2d2;
+  border-radius: 20px;
+}
+
+.address h3 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #143642;
+  margin-bottom: 20px;
+}
+
+.address p {
+  font-size: 20px;
+  color: #143642;
+  margin-bottom: 20px;
+}
+
+.address-one {
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.04);
+}
+
+.map {
+  width: 50%;
+}
+
+.map img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+/* *********************************** */
+/* BAGIAN HELP PAGE */
+/* *********************************** */
+.section-help-page {
+  padding: 120px 0;
+}
+
+.help {
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+.help-title h2 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #0f8b8d;
+  margin-bottom: 50px;
+}
+
+.help-form {
+  display: grid;
+  grid-template-columns: 203px 1fr;
+  align-items: center;
+  column-gap: 34px;
+  row-gap: 20px;
+  width: 100%;
+  height: 784px;
+  border: 2px solid #d2d2d2;
+  border-radius: 20px;
+  padding: 50px 98px;
+}
+
+label {
+  grid-column: 1 / 2;
+  font-size: 30px;
+  font-weight: 700;
+  color: #143642;
+}
+
+input,
+textarea {
+  grid-column: 2 / 3;
+  padding: 21px 46px;
+  font-size: 24px;
+  font-family: inherit;
+  border: 2px solid #d2d2d2;
+  color: #d2d2d2;
+  border-radius: 20px;
+}
+
+textarea {
+  margin-top: 25px;
+}
+
+button {
+  width: 216px;
+  height: 70px;
+  grid-column: 2 / 3;
+  font-size: 24px;
+  color: #f9fbfe;
+  border: none;
+  background-color: #a8201a;
+  border-radius: 150px;
+  margin-top: 50px;
+}

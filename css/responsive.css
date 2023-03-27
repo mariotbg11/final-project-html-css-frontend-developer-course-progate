@@ -1,0 +1,517 @@
+@media (max-width: 400px) {
+  /* *********************************** */
+  /* BAGIAN HEADER */
+  /* *********************************** */
+  .header-home {
+    display: block;
+    padding: 20px 40px;
+    height: 125px;
+  }
+
+  .header-home ul {
+    column-gap: 70px;
+    padding-left: 20px;
+  }
+
+  .header-home a {
+    font-size: 14px;
+  }
+
+  /* *********************************** */
+  /* BAGIAN HERO */
+  /* *********************************** */
+  .section-hero {
+    background-position: left;
+    height: 478px;
+    padding: 180px 0;
+  }
+
+  .logo {
+    width: 155px;
+    margin-bottom: 15px;
+  }
+
+  .hero h1 {
+    font-size: 40px;
+    line-height: 43.2px;
+    margin-bottom: 8px;
+  }
+
+  .hero p {
+    font-size: 18px;
+    line-height: 19.2px;
+  }
+
+  /* *********************************** */
+  /* BAGIAN ABOUT */
+  /* *********************************** */
+  .section-about {
+    padding: 40px 0;
+  }
+
+  .about {
+    flex-direction: column;
+    row-gap: 20px;
+    position: relative;
+    padding: 0 40px;
+  }
+
+  .about-img {
+    width: 155px;
+    height: 213px;
+    border-radius: 10px;
+    align-self: center;
+  }
+
+  .about-text h2 {
+    font-size: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 9px;
+  }
+
+  .about-text p {
+    width: 232px;
+    height: 56px;
+    font-size: 12px;
+    line-height: 14.4px;
+    align-self: start;
+  }
+
+  /* *********************************** */
+  /* BAGIAN MENU */
+  /* *********************************** */
+  .section-menu {
+    padding: 0 0 40px 0;
+  }
+
+  .menu {
+    flex-direction: column-reverse;
+    row-gap: 20px;
+    position: relative;
+    padding: 0 40px;
+  }
+
+  .menu-img {
+    width: 155px;
+    height: 155px;
+    border-radius: 10px;
+    align-self: center;
+  }
+
+  .menu-text h2 {
+    font-size: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 9px;
+  }
+
+  .menu-text p {
+    width: 273px;
+    height: 30px;
+    font-size: 12px;
+    line-height: 14.4px;
+    align-self: start;
+  }
+
+  .menu-text a {
+    width: 135px;
+    height: 28px;
+    font-size: 10px;
+    padding: 8px 19px;
+    margin-top: 20px;
+  }
+
+  /* *********************************** */
+  /* BAGIAN STORE */
+  /* *********************************** */
+  .section-store {
+    padding: 0 0 40px 0;
+  }
+
+  .store {
+    flex-direction: column;
+    row-gap: 20px;
+    position: relative;
+    padding: 0 40px;
+  }
+
+  .store-img {
+    width: 155px;
+    height: 155px;
+    border-radius: 10px;
+    align-self: center;
+  }
+
+  .store-text h2 {
+    font-size: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 9px;
+  }
+
+  .store-text p {
+    width: 265px;
+    height: 30px;
+    font-size: 12px;
+    line-height: 14.4px;
+    align-self: start;
+  }
+
+  .store-text a {
+    width: 135px;
+    height: 28px;
+    font-size: 10px;
+    padding: 8px 19px;
+    margin-top: 20px;
+  }
+
+  /* *********************************** */
+  /* BAGIAN FIND US */
+  /* *********************************** */
+  .section-feed {
+    padding: 0 0 40px 0;
+  }
+
+  .feed {
+    padding: 0 40px;
+  }
+
+  .feed h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .feed-img {
+    column-gap: 32px;
+    row-gap: 15px;
+  }
+
+  .feed-img img {
+    width: 80px;
+    height: 80px;
+  }
+
+  /* *********************************** */
+  /* BAGIAN CONTACT */
+  /* *********************************** */
+  .section-contact {
+    padding: 0 0 40px 0;
+  }
+
+  .contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 40px;
+  }
+
+  .contact h2 {
+    font-size: 20px;
+  }
+
+  .contact p {
+    width: 221px;
+    font-size: 12px;
+    line-height: 14.4px;
+  }
+
+  .contact a {
+    width: 135px;
+    height: 28px;
+    font-size: 10px;
+    padding: 8px 19px;
+  }
+
+  /* *********************************** */
+  /* BAGIAN FOOTER */
+  /* *********************************** */
+  footer {
+    height: 362px;
+  }
+
+  .footer-nav {
+    flex-direction: column;
+    height: 100%;
+    padding: 20px 40px 92px;
+  }
+
+  .side-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+
+  .icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 0;
+  }
+
+  .mail {
+    margin-right: 10px;
+  }
+
+  .side-right {
+    flex-direction: column;
+    column-gap: 100px;
+  }
+
+  .side-right h3 {
+    font-size: 14px;
+  }
+
+  .side-right li {
+    font-size: 12px;
+  }
+
+  .side-right h3,
+  li {
+    margin-bottom: 10px;
+  }
+
+  .side-right li {
+    padding-left: 30px;
+  }
+
+  /* *********************************** */
+  /* HEADER UNTUK MENU-DETAIL-FIND US-HELP PAGE */
+  /* *********************************** */
+  .header-multipage {
+    display: block;
+    padding: 20px 40px;
+    height: 125px;
+  }
+
+  .header-multipage ul {
+    column-gap: 70px;
+    padding-left: 20px;
+  }
+
+  .header-multipage a {
+    font-size: 14px;
+  }
+
+  /* *********************************** */
+  /* BAGIAN MENU PAGE */
+  /* *********************************** */
+  .section-menu-page {
+    padding: 40px 0;
+  }
+
+  .section-menu-page h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .section-menu-page p {
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+
+  .menus {
+    column-gap: 10px;
+    row-gap: 20px;
+    padding: 0 40px;
+  }
+
+  .menu-box {
+    width: 155px;
+    height: 155px;
+    padding: 13.12px;
+    border-radius: 10px;
+  }
+
+  .menus h4 {
+    font-size: 12px;
+    margin-bottom: 6.25px;
+  }
+
+  .menus p {
+    font-size: 12px;
+    margin-bottom: 0;
+  }
+
+  .menus img {
+    width: 140px;
+    height: 110px;
+  }
+
+  /* *********************************** */
+  /* BAGIAN DETAIL PAGE */
+  /* *********************************** */
+  .section-detail-page {
+    padding: 20px 0 30px 0;
+  }
+
+  .detail-page {
+    padding: 0 40px;
+  }
+
+  .detail-first {
+    flex-direction: column;
+  }
+
+  .detail-first h2 {
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .detail-desc {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+
+  .detail-first-text {
+    width: 100%;
+  }
+
+  .detail-price {
+    font-size: 30px;
+  }
+
+  .detail-second h2 {
+    width: 100%;
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 10px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ec9a29;
+  }
+
+  .detail-second-text p {
+    width: 100%;
+    font-size: 12px;
+    line-height: 14.4px;
+  }
+
+  .detail-btn {
+    width: 135px;
+    padding: 8px 12px;
+    margin-top: 30px;
+  }
+
+  .arrow-back {
+    width: 18px;
+    height: 16px;
+  }
+
+  .detail-btn a {
+    font-size: 10px;
+  }
+
+  /* *********************************** */
+  /* BAGIAN FIND US PAGE */
+  /* *********************************** */
+  .section-findus-page {
+    padding: 40px 0;
+  }
+
+  .findus {
+    padding: 0 40px;
+    flex-direction: column-reverse;
+    row-gap: 36px;
+  }
+
+  .findus-address {
+    width: 100%;
+  }
+
+  .findus-address h2 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+
+  .findus-desc {
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+
+  .address {
+    width: 100%;
+    padding: 20px 24px;
+    margin-bottom: 20px;
+    border: 2px solid #d2d2d2;
+    border-radius: 10px;
+  }
+
+  .address h3 {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+
+  .address p {
+    font-size: 12px;
+    margin-bottom: 0px;
+  }
+
+  .map {
+    width: 100%;
+  }
+
+  .map img {
+    border-radius: 10px;
+  }
+
+  /* *********************************** */
+  /* BAGIAN HELP PAGE */
+  /* *********************************** */
+  .section-help-page {
+    padding: 40px 0;
+  }
+
+  .help {
+    padding: 0 40px;
+  }
+
+  .help-title h2 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+
+  .help-form {
+    display: grid;
+    grid-template-columns: 203px 1fr;
+    align-items: center;
+    column-gap: 34px;
+    row-gap: 0px;
+    height: 470px;
+    border: 2px solid #d2d2d2;
+    border-radius: 10px;
+    padding: 30px 28px 30px 21px;
+  }
+
+  label {
+    grid-column: 1 / 3;
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+
+  input,
+  textarea {
+    grid-column: 1 / 3;
+    padding: 6px 16px;
+    font-size: 10px;
+    border-radius: 5px;
+    color: #d2d2d2;
+    margin-bottom: 10px;
+  }
+
+  textarea {
+    margin-top: 0px;
+  }
+
+  button {
+    width: 135px;
+    height: 28px;
+    grid-column: 1 / 3;
+    font-size: 10px;
+    margin-top: 30px;
+    justify-self: center;
+  }
+}
