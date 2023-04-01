@@ -221,6 +221,31 @@
   }
 
   /* *********************************** */
+  /* BAGIAN FAQ */
+  /* *********************************** */
+  .section-faq {
+    padding: 0 0 40px 0;
+  }
+
+  .faq {
+    padding: 0 40px;
+  }
+
+  .faq h2 {
+    font-size: 20px;
+  }
+
+  .faq p {
+    font-size: 12px;
+    line-height: 14.4px;
+  }
+
+  .accordion {
+    width: 100%;
+    font-size: 12px;
+  }
+
+  /* *********************************** */
   /* BAGIAN FOOTER */
   /* *********************************** */
   footer {
