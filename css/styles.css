@@ -723,3 +723,54 @@ button {
   border-radius: 150px;
   margin-top: 50px;
 }
+
+/* *********************************** */
+/* SCROLL ANIMATION */
+/* *********************************** */
+.reveal {
+  position: relative;
+  opacity: 0;
+}
+.reveal.active {
+  opacity: 1;
+}
+.active.fade-bottom {
+  animation: fade-bottom 0.7s ease-in;
+}
+.active.fade-left {
+  animation: fade-left 0.7s ease-in;
+}
+.active.fade-right {
+  animation: fade-right 0.7s ease-in;
+}
+
+@keyframes fade-bottom {
+  0% {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes fade-left {
+  0% {
+    transform: translateX(-50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes fade-right {
+  0% {
+    transform: translateX(50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
