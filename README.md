@@ -27,9 +27,8 @@ Project Multipage Website ini adalah project akhir HTML&CSS serta Javascript DOM
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
 - Flexbox
-- CSS Grid
+- Javascript
 
 ### What I learned
 
