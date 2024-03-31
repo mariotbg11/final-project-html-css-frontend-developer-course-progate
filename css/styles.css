@@ -258,6 +258,7 @@ body {
 .feed-img img {
   width: 237px;
   height: 237px;
+  border-radius: 20px;
 }
 
 /* *********************************** */
